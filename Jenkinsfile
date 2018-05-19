@@ -1,5 +1,5 @@
 
-de{
+node{
     stage ('scm checkout'){
     checkout([$class: 'GitSCM',
     branches: [[name: '*/master']], 
